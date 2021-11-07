@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_ServletTest/01_ServletTest.iml" filepath="$PROJECT_DIR$/01_ServletTest/01_ServletTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ServletInherit/02_ServletInherit.iml" filepath="$PROJECT_DIR$/02_ServletInherit/02_ServletInherit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_requestTest/03_requestTest.iml" filepath="$PROJECT_DIR$/03_requestTest/03_requestTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_LoginTest/04_LoginTest.iml" filepath="$PROJECT_DIR$/04_LoginTest/04_LoginTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_ResponseTest/05_ResponseTest.iml" filepath="$PROJECT_DIR$/05_ResponseTest/05_ResponseTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavawebDemo.iml" filepath="$PROJECT_DIR$/JavawebDemo.iml" />
+    </modules>
+  </component>
+</project>
