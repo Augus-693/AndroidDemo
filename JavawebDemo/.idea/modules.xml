@@ -7,7 +7,22 @@
       <module fileurl="file://$PROJECT_DIR$/03_requestTest/03_requestTest.iml" filepath="$PROJECT_DIR$/03_requestTest/03_requestTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_LoginTest/04_LoginTest.iml" filepath="$PROJECT_DIR$/04_LoginTest/04_LoginTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/05_ResponseTest/05_ResponseTest.iml" filepath="$PROJECT_DIR$/05_ResponseTest/05_ResponseTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_cookie&amp;session/06_cookie&amp;session.iml" filepath="$PROJECT_DIR$/06_cookie&amp;session/06_cookie&amp;session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_JSP&amp;EL&amp;JSTL/07_JSP&amp;EL&amp;JSTL.iml" filepath="$PROJECT_DIR$/07_JSP&amp;EL&amp;JSTL/07_JSP&amp;EL&amp;JSTL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_UserInfoCase/07_UserInfoCase.iml" filepath="$PROJECT_DIR$/07_UserInfoCase/07_UserInfoCase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_Filter&amp;Listener/09_Filter&amp;Listener.iml" filepath="$PROJECT_DIR$/09_Filter&amp;Listener/09_Filter&amp;Listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_JQueryBase/10_JQueryBase.iml" filepath="$PROJECT_DIR$/10_JQueryBase/10_JQueryBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_JQueryQuality/11_JQueryQuality.iml" filepath="$PROJECT_DIR$/11_JQueryQuality/11_JQueryQuality.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12_Ajax&amp;Json/12_Ajax&amp;Json.iml" filepath="$PROJECT_DIR$/12_Ajax&amp;Json/12_Ajax&amp;Json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_Redis/13_Redis.iml" filepath="$PROJECT_DIR$/13_Redis/13_Redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14_MavenProject/14_MavenProject.iml" filepath="$PROJECT_DIR$/14_MavenProject/14_MavenProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15_Travel/15_Travel.iml" filepath="$PROJECT_DIR$/15_Travel/15_Travel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16_Travel/16_Travel.iml" filepath="$PROJECT_DIR$/16_Travel/16_Travel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/17_library/17_library.iml" filepath="$PROJECT_DIR$/17_library/17_library.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavawebDemo.iml" filepath="$PROJECT_DIR$/JavawebDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14_MavenProject/maven_java_1/maven_java_1.iml" filepath="$PROJECT_DIR$/14_MavenProject/maven_java_1/maven_java_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14_MavenProject/maven_java_2/maven_java_2.iml" filepath="$PROJECT_DIR$/14_MavenProject/maven_java_2/maven_java_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14_MavenProject/maven_web_3/maven_web_3.iml" filepath="$PROJECT_DIR$/14_MavenProject/maven_web_3/maven_web_3.iml" />
     </modules>
   </component>
 </project>

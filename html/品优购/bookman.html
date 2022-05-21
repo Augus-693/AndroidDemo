@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>图书</title>
+    <!-- 引入facicon.ico网页图标 -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- 开发环境版本，包含了有帮助的命令行警告 -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <!-- 引入样式 -->
+    <link href="https://unpkg.com/element-ui/lib/theme-chalk/index.css" rel="stylesheet">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+
+    <style>
+        .navbar {
+            border-width: 2px;
+            border-style: solid;
+            border-radius: 25px 25px 55px 5px/5px 55px 25px 25px;
+            border-color: #333 !important;
+            color: rgb(51, 51, 51) !important;
+        }
+        
+        .box-card {
+            border-radius: 5px 5px 5px 5px/25px 25px 25px 5px;
+            ;
+            border-color: #333 !important;
+            border-style: solid !important;
+        }
+        
+        .el-input,
+        .el-select {
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <el-container>
+            <el-header>
+                <el-menu class="el-menu-demo navbar" mode="horizontal">
+                    <el-menu-item index="1">
+                        <a href="index.html" title="品优购"><img alt="" src="img/logo.png"></a>
+                    </el-menu-item>
+                    <el-submenu index="2">
+                        <template slot="title">我的工作台</template>
+                        <el-menu-item index="2-1">选项1</el-menu-item>
+                        <el-menu-item index="2-2">选项2</el-menu-item>
+                        <el-menu-item index="2-3">选项3</el-menu-item>
+                        <el-submenu index="2-4">
+                            <template slot="title">选项4</template>
+                            <el-menu-item index="2-4-1">选项1</el-menu-item>
+                            <el-menu-item index="2-4-2">选项2</el-menu-item>
+                            <el-menu-item index="2-4-3">选项3</el-menu-item>
+                        </el-submenu>
+                    </el-submenu>
+                    <el-menu-item disabled index="3">消息中心</el-menu-item>
+                    <el-menu-item index="4"><a href="Car.html" target="_blank">订单管理</a></el-menu-item>
+                </el-menu>
+            </el-header>
+            <el-main>
+                <el-card class="box-card">
+                    <div slot="header" class="clearfix">
+                        <span>书籍列表</span>
+                        <el-button style="float: right; padding: 3px 0" type="text" @click="showAddDlg()">新增</el-button>
+                    </div>
+                    <el-table :data="books" style="width: 100%" v-loading="loading" element-loading-text="玩命加载中" element-loading-spinner="el-icon-loading" element-loading-background="rgba(0, 0, 0, 0.8)">
+                        <!-- 第一个是V-bind但是可以省略简写成:data -->
+                        <el-table-column prop="id" label="#" width="180">
+                        </el-table-column>
+                        <el-table-column prop="name" label="书籍名" width="180">
+                        </el-table-column>
+                        <el-table-column prop="author" label="作者">
+                        </el-table-column>
+                        <el-table-column prop="price" label="价格">
+                        </el-table-column>
+                        <el-table-column prop="type.name" label="类型">
+                        </el-table-column>
+                        <el-table-column fixed="right" label="操作" width="100">
+                            <template slot-scope="scope">
+                        <el-button @click="handleDel(scope.row)" type="text" size="small">
+                            <i class="el-icon-delete" title="删除"></i>
+                        </el-button>
+                        <el-button type="text" size="small" @click="showDlg(scope.row)">
+                            <i class="el-icon-edit" title="编辑" ></i>
+                        </el-button>
+                         </template>
+                        </el-table-column>
+                    </el-table>
+                    <el-pagination :page-size="limit" @size-change="handleSizeChange" @current-change="handleCurrentChange" :page-sizes="[1, 2, 3, 4,5]" layout="sizes,prev, pager, next" :total="total">
+                    </el-pagination>
+                </el-card>
+            </el-main>
+            <el-footer>
+                <el-row :span="24">
+                    <el-card class="box-card ">
+                        <div style="text-align: center;">图书管理系统&copy;</div>
+                    </el-card>
+                </el-row>
+            </el-footer>
+        </el-container>
+
+        <el-dialog :title="dlgTitle" :visible.sync="centerDialogVisible" width="40%" center>
+            <el-form label-width="80px" :model="book">
+                <!-- 绑定id -->
+                <el-input v-model="book.id" type="hidden"></el-input>
+                <el-form-item label="书籍名" prop="name">
+                    <el-input v-model="book.name"></el-input>
+                </el-form-item>
+                <el-form-item label="作者">
+                    <el-input v-model="book.author"></el-input>
+                </el-form-item>
+                <el-form-item label="价格">
+                    <el-input v-model="book.price"></el-input>
+                </el-form-item>
+
+                <el-form-item label="类型">
+                    <el-select placeholder="活动区域" v-model="book.typeId">
+                        <el-option v-for="type in types" :key="type.id" :label="type.name" :value="type.id"></el-option>
+                    </el-select>
+                </el-form-item>
+            </el-form>
+            <span slot="footer" class="dialog-footer">
+        <el-button @click="centerDialogVisible = false">取 消</el-button>
+        <el-button type="primary" @click="doEdit">确 定</el-button>
+  </span>
+        </el-dialog>
+    </div>
+
+    <script>
+        var vm = new Vue({
+            el: "#app",
+            data: {
+                books: [],
+                loading: true,
+                total: 0,
+                pageNum: 2,
+                limit: 2,
+                centerDialogVisible: false,
+                book: {},
+                types: {},
+                dlgTitle: "书籍编辑",
+                isEdit: true
+            },
+            methods: {
+
+                getData: function() {
+                    var self = this;
+                    // 新特性里用'  `  '这个符号可以不用拼接字符串
+                    axios.get(`http://localhost:3000/books?_page=${self.pageNum}&_limit=${self.limit}&_expand=type`).then(function(response) {
+                        self.books = response.data;
+                        console.log(response);
+                        self.loading = false;
+                        self.total = response.headers["x-total-count"] - 0;
+                    }).catch(function(error) {
+                        console.log(error);
+                        self.loading = false;
+                    });
+                },
+                getTypes: function() {
+                    var self = this;
+                    // 新特性里用'  `  '这个符号可以不用拼接字符串
+                    axios.get(`http://localhost:3000/types`).then(function(response) {
+                        self.types = response.data;
+                    }).catch(function(error) {
+                        console.log(error);
+                    });
+                },
+                handleCurrentChange(val) {
+                    //  console.log(`当前页: ${val}`);
+                    this.pageNum = val;
+                    this.getData();
+                },
+                handleSizeChange(val) {
+                    this.limit = val;
+                    this.getData();
+                },
+                handleDel(row) {
+                    // 因为再这个里面this会转变，之后将不能用，所以用self存储this的值,一进ajax，this就是窗口了。
+                    var self = this;
+                    this.$confirm('此操作将永久删除该纪录, 是否继续?', '提示', {
+                        confirmButtonText: '确定',
+                        cancelButtonText: '取消',
+                        type: 'warning'
+                    }).then(() => {
+                        axios.delete(`http://localhost:3000/books/${row.id}`).then(function(response) {
+                            self.$message({
+                                type: 'success',
+                                message: '删除成功!'
+                            });
+                            self.getData();
+                        }).catch(function(error) {
+                            self.$message({
+                                type: 'error',
+                                message: '删除失败'
+                            });
+                        });
+                    }).catch(() => {
+                        self.$message({
+                            type: 'info',
+                            message: '已取消删除'
+                        });
+                    });
+                },
+
+                showDlg(row) {
+                    this.centerDialogVisible = true;
+                    this.book = row;
+                    this.dlgTitle = "书籍编辑";
+                    this.isEdit = true;
+                },
+                doEdit() {
+                    // 因为再这个里面this会转变，之后将不能用，所以用self存储this的值,一进ajax，this就是窗口了。
+                    var self = this;
+                    if (self.isEdit) {
+                        axios.put(`http://localhost:3000/books/${self.book.id}`, self.book).then(function(response) {
+                            self.$message({
+                                type: 'success',
+                                message: '编辑成功!'
+                            });
+                            self.getData();
+                            self.centerDialogVisible = false;
+                        }).catch(function(error) {
+                            console.log(error);
+                            self.$message({
+                                type: 'error',
+                                message: '编辑失败'
+                            });
+                        });
+                    } else {
+                        axios.post(`http://localhost:3000/books`, self.book).then(function(response) {
+                            self.$message({
+                                type: 'success',
+                                message: '添加成功!'
+                            });
+                            self.getData();
+                            self.centerDialogVisible = false;
+                        }).catch(function(error) {
+                            console.log(error);
+                            self.$message({
+                                type: 'error',
+                                message: '添加失败'
+                            });
+                        });
+                    }
+                },
+                showAddDlg() {
+                    this.centerDialogVisible = true;
+                    this.dlgTitle = "书籍添加";
+                    this.book = {};
+                    this.isEdit = false;
+                }
+            },
+
+            created: function() {
+                this.getData();
+                this.getTypes();
+            }
+
+        });
+    </script>
+</body>
+
+</html>

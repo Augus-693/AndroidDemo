@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webmvn:war">
+    <output-path>$PROJECT_DIR$/16_Travel/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>webmvn</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="webmvn.war">
+      <element id="artifact" artifact-name="webmvn:war exploded" />
+    </root>
+  </artifact>
+</component>

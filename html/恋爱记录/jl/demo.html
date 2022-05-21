@@ -1,0 +1,409 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>爱情纪录手册</title>
+
+<style>
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: normal 16px/1.5 'Titillium Web', sans-serif;
+  background: linear-gradient(54deg, #9164ff, #8bfff4);
+  color: #3c3f64;
+  overflow-x: hidden;
+  padding-bottom: 50px;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #fff;
+}
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%) rotate(45deg);
+  width: 20px;
+  height: 20px;
+  z-index: 2;
+  background: #eee;
+}
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.timeline ul li div time {
+  position: absolute;
+  background: #f5af19;
+  width: 80px;
+  height: 30px;
+  top: -15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+}
+.timeline ul li div div {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timeline ul li div div p {
+  text-align: center;
+}
+.timeline ul li div .event {
+  margin-right: 10px;
+}
+.timeline ul li:nth-of-type(odd) > div {
+  left: 45px;
+}
+.timeline ul li:nth-of-type(even) > div {
+  left: -439px;
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.timeline ul li:nth-of-type(odd) div {
+  transform: translate3d(100px, -10px, 0) rotate(10deg);
+}
+.timeline ul li:nth-of-type(even) div {
+  transform: translate3d(-100px, -10px, 0) rotate(10deg);
+}
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+    flex-direction: column;
+  }
+  .timeline ul li div div {
+    width: 80%;
+    margin: 10px;
+  }
+  .timeline ul li:nth-of-type(even) > div {
+    left: -289px;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    background: #8bfff4;
+  }
+
+  .timeline ul li {
+    margin-left: 20px;
+  }
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+  .timeline ul li:nth-of-type(even) > div {
+    left: 45px;
+  }
+}
+</style>
+</head>
+<body>
+<section class="timeline">
+    <ul>
+        <li>
+            <div>
+                <time>2018,9,1</time>
+                <div class="event">
+                    <h3>第一次相遇</h3>
+                    <p>
+                        First Encounter
+                    </p>
+                </div>
+                <div class="scientist">
+                    <h1>Hello</h1>
+                    <span>别来无恙</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>2019,4,27</time>
+                <div class="event">
+                    <h3>第一次看电影</h3>
+                    <p>
+                        First Watching
+                    </p>
+                </div>
+                <div class="scientist">
+                    <h1>Hello</h1>
+                    <span>爱你三千遍</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>2019,5,25</time>
+                <div class="event">
+                    <h3>第一次紧紧相抱</h3>
+                    <p>
+                        First Embrace
+                    </p>
+                </div>
+                <div class="scientist">
+                    <h1>Hello</h1>
+                    <span>那感觉真好</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>2019,6,1</time>
+                <div class="event">
+                    <h3>我们在一起了</h3>
+                    <p>
+                        We are together
+                    </p>
+                </div>
+                <div class="scientist">
+                    <h1>Hello</h1>
+                    <span>因为有你<br>未来可期</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>2019,6,1</time>
+                <div class="event">
+                    <h3>第一次牵手</h3>
+                    <p>
+                        First hand holding
+                    </p>
+                </div>
+                <div class="scientist">
+                    <h1>Hello</h1>
+                    <span>陪你一起走</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>2019,8,24</time>
+                <div class="event">
+                    <h3>第一次送礼物</h3>
+                    <p>
+                        First Present
+                    </p>
+                </div>
+                <div class="scientist">
+                    <h1>Hello</h1>
+                    <span>还记得那个小包吗？</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>2020,6,6</time>
+                <div class="event">
+                    <h3>第一次见父母</h3>
+                    <p>
+                        First Meeting Parents
+                    </p>
+                </div>
+                <div class="scientist">
+                    <h1>Hello</h1>
+                    <span>印象还都不错</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>2020,6,12</time>
+                <div class="event">
+                    <h3>第一次过生日</h3>
+                    <p>
+                        First birthday
+                    </p>
+                </div>
+                <div class="scientist">
+                    <h1>Hello</h1>
+                    <span>以后都要一起</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>2021,5,1</time>
+                <div class="event">
+                    <h3>第一次旅行</h3>
+                    <p>
+                        First trip
+                    </p>
+                </div>
+                <div class="scientist">
+                    <h1>Hello</h1>
+                    <span>真的好累</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>2021,6,1</time>
+                <div class="event">
+                    <h3>第一次送花</h3>
+                    <p>D
+                        First Flower Delivery
+                    </p>
+                </div>
+                <div class="scientist">
+                    <h1>Hello</h1>
+                    <span>虽迟但到</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>Time</time>
+                <div class="event">
+                    <h3>Event</h3>
+                    <p>
+                        Event Description
+                    </p>
+                </div>
+                <div class="scientist">
+                    <h1>Hello</h1>
+                    <span>Love you three thousand times</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>Time</time>
+                <div class="event">
+                    <h3>Event</h3>
+                    <p>
+                        Event Description
+                    </p>
+                </div>
+                <div class="scientist">
+                    <h1>Hello</h1>
+                    <span>Love you three thousand times</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>Time</time>
+                <div class="event">
+                    <h3>Event</h3>
+                    <p>
+                        Event Description
+                    </p>
+                </div>
+                <div class="scientist">
+                    <h1>Hello</h1>
+                    <span>Love you three thousand times</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>Time</time>
+                <div class="event">
+                    <h3>Event</h3>
+                    <p>
+                        Event Description
+                    </p>
+                </div>
+                <div class="scientist">
+                    <h1>Hello</h1>
+                    <span>Love you three thousand times</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>Time</time>
+                <div class="event">
+                    <h3>Event</h3>
+                    <p>
+                        Event Description
+                    </p>
+                </div>
+                <div class="scientist">
+                    <h1>Hello</h1>
+                    <span>Love you three thousand times</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>Time</time>
+                <div class="event">
+                    <h3>Event</h3>
+                    <p>
+                        Event Description
+                    </p>
+                </div>
+                <div class="scientist">
+                    <h1>Hello</h1>
+                    <span>Love you three thousand times</span>
+                </div>
+            </div>
+        </li>
+    </ul>
+</section>
+
+<script>
+var items = document.querySelectorAll(".timeline li");
+
+function isElementInViewport(el) {
+  var rect = el.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+function callbackFunc() {
+  for (var i = 0; i < items.length; i++) {
+    if (isElementInViewport(items[i])) {
+      if(!items[i].classList.contains("in-view")){
+        items[i].classList.add("in-view");
+      }
+    } else if(items[i].classList.contains("in-view")) {
+        items[i].classList.remove("in-view");
+    }
+  }
+}
+ 
+window.addEventListener("load", callbackFunc);
+window.addEventListener("scroll", callbackFunc);
+</script>
+
+</body>
+</html>

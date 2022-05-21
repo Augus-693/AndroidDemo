@@ -1,0 +1,85 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "JavaScript入门",
+      "typeId": 1,
+      "author": "黄蓉",
+      "price": "29.9"
+    },
+    {
+      "id": 2,
+      "name": "css入门",
+      "typeId": 2,
+      "author": "郭靖",
+      "price": 99.9
+    },
+    {
+      "id": 3,
+      "name": "css入门",
+      "typeId": 1,
+      "author": "郭靖",
+      "price": "66.6",
+      "type": {
+        "id": 1,
+        "name": "电子书"
+      }
+    },
+    {
+      "id": 4,
+      "name": "css入门",
+      "typeId": 1,
+      "author": "郭靖",
+      "price": 99.9
+    },
+    {
+      "id": 5,
+      "name": "html入门",
+      "typeId": 1,
+      "author": "黄蓉",
+      "price": 29.9
+    },
+    {
+      "name": "python入门",
+      "typeId": 1,
+      "author": "张三",
+      "price": "23",
+      "id": 1624591675241
+    },
+    {
+      "name": "电路基础",
+      "typeId": 1,
+      "author": "李博文",
+      "price": "45",
+      "id": 1624591813433
+    },
+    {
+      "name": "回家记",
+      "author": "李博文",
+      "price": "100000.0",
+      "typeId": 2,
+      "id": 1624591813434
+    },
+    {
+      "name": "离散求稳",
+      "author": "李博文",
+      "price": "99.9",
+      "typeId": 2,
+      "id": 1624591813435,
+      "type": {
+        "id": 2,
+        "name": "计算机"
+      }
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "电子书"
+    },
+    {
+      "id": 2,
+      "name": "计算机"
+    }
+  ]
+}

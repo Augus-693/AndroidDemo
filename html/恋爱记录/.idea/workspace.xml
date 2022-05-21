@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6aa4c8c-66aa-406d-aa6f-25e00ea949d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/SC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C/.idea/C.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JDBC/JDBC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Javaweb/01_ServletTest/01_ServletTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Javaweb/02_ServletInherit/02_ServletInherit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Javaweb/03_requestTest/03_requestTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Javaweb/Javaweb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/.idea/artifacts/06_cookie_session_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/.idea/artifacts/07_JSP_EL_JSTL_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/.idea/artifacts/07_UserInfoCase_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/.idea/artifacts/07_el_jstl_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/.idea/artifacts/JSP_MySQL_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/05_ResponseTest/src/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/05_ResponseTest/src/com/augus/CheckCodeServlet/CheckCodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/05_ResponseTest/src/com/augus/ServletContext/ServletContextDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/05_ResponseTest/src/com/augus/ServletContext/ServletContextDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/05_ResponseTest/src/com/augus/ServletContext/ServletContextDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/05_ResponseTest/src/com/augus/ServletContext/ServletContextDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/05_ResponseTest/src/com/augus/ServletContext/ServletContextDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/05_ResponseTest/src/com/augus/download/DownloadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/05_ResponseTest/src/com/augus/responseTest/ResponseDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/05_ResponseTest/src/com/augus/responseTest/ResponseDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/05_ResponseTest/src/com/augus/units/DownLoadUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/05_ResponseTest/web/WEB-INF/b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/05_ResponseTest/web/download.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/05_ResponseTest/web/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/05_ResponseTest/web/img/1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/05_ResponseTest/web/img/黑客.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/05_ResponseTest/web/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/06_cookie&amp;session/06_cookie&amp;session.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/06_cookie&amp;session/src/com/augus/checkcode/CheckCodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/06_cookie&amp;session/src/com/augus/checkcode/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/06_cookie&amp;session/src/com/augus/cookie/CookieDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/06_cookie&amp;session/src/com/augus/cookie/CookieDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/06_cookie&amp;session/src/com/augus/cookie/CookieDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/06_cookie&amp;session/src/com/augus/cookie/CookieDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/06_cookie&amp;session/src/com/augus/cookie/CookieDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/06_cookie&amp;session/src/com/augus/cookieCase/CookieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/06_cookie&amp;session/src/com/augus/cookieCase/CookieTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/06_cookie&amp;session/src/com/augus/session/SessionDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/06_cookie&amp;session/src/com/augus/session/SessionDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/06_cookie&amp;session/src/com/augus/session/SessionDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/06_cookie&amp;session/src/com/augus/session/SessionDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/06_cookie&amp;session/src/com/augus/test/TimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/06_cookie&amp;session/web/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/06_cookie&amp;session/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/06_cookie&amp;session/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/06_cookie&amp;session/web/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_JSP&amp;EL&amp;JSTL/07_JSP&amp;EL&amp;JSTL.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_JSP&amp;EL&amp;JSTL/src/com/augus/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_JSP&amp;EL&amp;JSTL/web/500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_JSP&amp;EL&amp;JSTL/web/EL/el1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_JSP&amp;EL&amp;JSTL/web/EL/el2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_JSP&amp;EL&amp;JSTL/web/EL/el3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_JSP&amp;EL&amp;JSTL/web/EL/el4.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_JSP&amp;EL&amp;JSTL/web/JSTL/jstl1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_JSP&amp;EL&amp;JSTL/web/JSTL/jstl2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_JSP&amp;EL&amp;JSTL/web/JSTL/jstl3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_JSP&amp;EL&amp;JSTL/web/JSTL/jstl_test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_JSP&amp;EL&amp;JSTL/web/body.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_JSP&amp;EL&amp;JSTL/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_JSP&amp;EL&amp;JSTL/web/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/07_UserInfoCase.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/src/com/augus/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/src/com/augus/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/src/com/augus/doman/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/src/com/augus/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/src/com/augus/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/src/com/augus/test/FindUserServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/src/com/augus/test/UserDaoImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/src/com/augus/util/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/src/com/augus/web/servlet/AddUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/src/com/augus/web/servlet/CheckCodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/src/com/augus/web/servlet/DelUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/src/com/augus/web/servlet/FindUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/src/com/augus/web/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/src/com/augus/web/servlet/UserListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/src/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/web/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/web/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/web/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/web/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/web/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/web/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/web/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/web/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/web/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/web/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/web/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/web/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/web/js/jquery-2.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/web/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavawebDemo/07_UserInfoCase/web/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/html.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appConfig.xlt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/a.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/admin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/alipay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/footweb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/qq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/qq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/vx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/web.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/wechat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/zfb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/zuobiao.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jl/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wa/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wa/static/css/zhl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wa/static/js/zhl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wa/zhl-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc/img/IMG_20210502_133656.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc/img/IMG_20210502_144852.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc/img/IMG_20210503_193842.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc/img/IMG_20210503_193932.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc/img/IMG_20210503_194249.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc/img/IMG_20210503_194853.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc/img/beauty_20210502150927.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc/img/beauty_20210503225546.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc/img/beauty_20210503225554.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc/img/beauty_20210503225617.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc/img/beauty_20210503230000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc/img/mmexport1627736790855.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc/img/mmexport1630580838094(1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc/img/mmexport1630580845981(1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc/img/mmexport1632924903265.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc/img/mmexport1632927579328.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavawebDemo/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavawebDemo/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavawebDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavawebDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavawebDemo/05_ResponseTest/src/com/augus/responseTest/ResponseDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavawebDemo/05_ResponseTest/src/com/augus/responseTest/ResponseDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavawebDemo/05_ResponseTest/web/location.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavawebDemo/05_ResponseTest/web/location.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavawebDemo/JavawebDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavawebDemo/JavawebDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavawebDemo/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="213AdG2POmHEzuUimkU88hJVWQS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6aa4c8c-66aa-406d-aa6f-25e00ea949d8" name="Default Changelist" comment="" />
+      <created>1637159482121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637159482121</updated>
+      <workItem from="1637159484061" duration="166000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
